@@ -20,29 +20,42 @@
 </head>
 <body class="">
     <header class="container mx-auto">
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <h1><a class="text-3xl text-black font-extrabold cursor-pointer">Hockey<span
-                    class="text-red-500">’</span>s</a></h1>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a href="" class="text-lg hover:bg-transparent text-red-600">Home</a></li>
-                        <li><a href="" class="text-lg hover:bg-transparent">About</a></li>
-                        <li><a href="" class="text-lg hover:bg-transparent">Pages</a></li>
-                        <li><a href="" class="text-lg hover:bg-transparent">Blog</a></li>
-                        <li><a href="" class="text-lg hover:bg-transparent">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-end">
-                  <button class="btn btn-ghost btn-circle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-                  </button>
-                  <button class="btn btn-error">Get Ticket</button>
-                </div>
-              </div>
-        </nav>
+          <div class="navbar bg-base-100">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </div>
+      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Page</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+    <h1>
+      <a class="text-3xl text-black font-extrabold cursor-pointer" href="">Hockey<span class="text-red-500">'</span>s
+    </a>
+    </h1>
+    
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Page</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+      <button class="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+      </button>
+    <a class="btn btn-error">Get Ticket</a>
+  </div>
+</div>
           <section class="w-full lg:h-[560px] mx-auto pb-12 px-4 lg:px-0">
             <div class="carousel w-full ">
                 <div id="slide1" class="carousel-item relative h-[600px] md:h-[600px] w-full">
