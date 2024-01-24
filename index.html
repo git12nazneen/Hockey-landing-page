@@ -15,6 +15,7 @@
         .font{
             font-family: "Manrope", sans-serif;
         }
+        
     </style>
 </head>
 <body class="">
@@ -22,89 +23,101 @@
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Homepage</a></li>
-                      <li><a>Portfolio</a></li>
-                      <li><a>About</a></li>
-                    </ul>
-                  </div>
+                  <h1><a class="text-3xl text-black font-extrabold cursor-pointer">Hockey<span
+                    class="text-red-500">’</span>s</a></h1>
                 </div>
-                <div class="navbar-center">
-                  <a class="btn btn-ghost text-xl">daisyUI</a>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="" class="text-lg hover:bg-transparent text-red-600">Home</a></li>
+                        <li><a href="" class="text-lg hover:bg-transparent">About</a></li>
+                        <li><a href="" class="text-lg hover:bg-transparent">Pages</a></li>
+                        <li><a href="" class="text-lg hover:bg-transparent">Blog</a></li>
+                        <li><a href="" class="text-lg hover:bg-transparent">Contact</a></li>
+                    </ul>
                 </div>
                 <div class="navbar-end">
                   <button class="btn btn-ghost btn-circle">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                   </button>
-                  <button class="btn btn-ghost btn-circle">
-                    <div class="indicator">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
-                      <span class="badge badge-xs badge-primary indicator-item"></span>
-                    </div>
-                  </button>
+                  <button class="btn btn-error">Get Ticket</button>
                 </div>
               </div>
         </nav>
-        <!-- banner -->
-        <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative w-full">
-              <img src="./Images/1.png" class="w-full h-screen" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle">❮</a> 
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide2" class="carousel-item relative w-full">
-                <img src="./Images/ban3.jpg" class="w-full h-screen" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle">❮</a> 
-                <a href="#slide3" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide3" class="carousel-item relative w-full">
-                <img src="./Images/ban1.jpg" class="w-full h-screen" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle">❮</a> 
-                <a href="#slide4" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide4" class="carousel-item relative w-full h-screen">
-                <img src="./Images/ban2.jpg" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle">❮</a> 
-                <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
+          <section class="w-full  lg:h-[560px] mx-auto pb-12 px-4 lg:px-0">
+            <div class="carousel w-full ">
+                <div id="slide1" class="carousel-item relative h-[600px] md:h-[600px] w-full">
+                    <img src="Images/1.png" class="w-full h-[260px] xl:h-5/6" />
+                    <div class="absolute flex flex-col justify-center items-center xl:flex-row gap-10 xl:gap-96 xl:left-8 xl:right-5 top-[32%] md:top-[32%] xl:mt-[10%]">
+                        <div class="flex gap-5 md:items-end xl:items-end">
+                            <a href="#slide4"
+                                class="btn border-none bg-black text-white hover:bg-red-500  rounded-full">❮</a>
+                            <a href="#slide2"
+                                class="btn border-none bg-black text-white hover:bg-red-500  rounded-full">❯</a>
+                        </div>
+                        <div class="slide-content p-8 bg-black rounded-xl xl:ml-28">
+                            <h2 class="text-white text-3xl mb-4 font-extrabold">Olympic champions Belgium</h2>
+                            <p class="font-medium text-gray-400 ">Defending Olympic champions Belgium made sure they’ll be in Paris to defend their men’s FIH Hockey Olympic Qualifiers 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative h-[600px] md:h-[600px] w-full">
+                    <img src="Images/2.png" class="w-full h-[260px] xl:h-5/6" />
+                    <div class="absolute flex flex-col justify-center items-center xl:flex-row gap-10 xl:gap-96 xl:left-8 xl:right-5 top-[32%] md:top-[32%] xl:mt-[10%]">
+                        <div class="flex gap-5 md:items-end xl:items-end">
+                            <a href="#slide1"
+                                class="btn border-none bg-black text-white hover:bg-red-500  rounded-full">❮</a>
+                            <a href="#slide3"
+                                class="btn border-none bg-black text-white hover:bg-red-500  rounded-full">❯</a>
+                        </div>
+                        <div class="slide-content p-8 bg-black rounded-xl xl:ml-28">
+                            <h2 class="text-white text-3xl mb-4 font-extrabold">Find Hockey Near You</h2>
+                            <p class="font-medium text-gray-400 ">how about registering your kids for a new team?  Look no further as we can provide a complete list of USA Hockey sanctioned organizations near you!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
     </header>
     <main>
-        <section class="container mx-auto my-24 text-center mx:2 lg:mx-10">
-            <h3 class="text-xl text-center lg:text-4xl font-semibold">Clients Question</h3>
+        <section class="container mx-auto my-24 text-center lg:mx-10">
+            <h3 class="text-xl text-center lg:text-4xl font-semibold">Professional Hockeys Club</h3>
             <p class="mt-5 text-wrap lg:w-96 mx-auto"> Professional hockey clubs are organizations that field teams to compete in top-level hockey leagues. </p>
         </section>
         <!-- progress -->
-        <!-- <section class="container mx-auto my-24  mx:2 lg:mx-10">
-            <div class="grid col-span-1 md:col-span-2 lg:col-span-3">
-                <div class="box"> -->
-                    <!-- <div class="radial-progres " style="--value:87;" role="progressbar">87%</div> -->
-                    <!-- <div class="div">
-                        <img class="" src="./Images/Group 9.svg" alt="">
-                        <h6 class="-mt-4 ">87%</h6>
+        <section class="container mx-auto my-24 ">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center gap-5 lg:gap-3 mx-5 lg:mx-10">
+                <div class="">
+                    <div class="radial-progress text-red-500 mb-6" style="--value:87;" role="progressbar">87%
                     </div>
-                    <h4>Prayer Facility</h4>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h4 class="text-xl mb-4 font-semibold">Prayer Facility</h4>
+                    <p class="">Olympic facilities refer to the various venues and infrastructure specifically built or adapted to host the Olympic Games.</p>
                 </div>
-              
+                <div class="">
+                    <div class="radial-progress text-green-500 mb-6" style="--value:95;" role="progressbar">95%
+                    </div>
+                    <h4 class="text-xl mb-4 font-semibold">Experienced Coach</h4>
+                    <p class="">The term "Experienced Coach" is quite broad, as coaching can apply to various fields such as sports, business, life, career, and more.</p>
+                </div>
+                <div class="">
+                    <div class="radial-progress text-yellow-500 mb-6" style="--value:90;" role="progressbar">90%
+                    </div>
+                    <h4 class="text-xl mb-4 font-semibold">Senior Player</h4>
+                    <p class="">A senior player typically refers to an experienced and seasoned individual in a particular field, often used in the context of sports</p>
+                </div>
+                <div class="">
+                    <div class="radial-progress text-blue-500 mb-6" style="--value:80;" role="progressbar">80%
+                    </div>
+                    <h4 class="text-xl mb-4 font-semibold">Training Ground</h4>
+                    <p class="">Any ongoing training or professional development the coach engages in to stay current in their field.</p>
+                </div>
+                
+                  </div>
             </div>
-        </section> -->
+        </section>
         <!-- program -->
         <section class="container mx-auto my-24 text-center m-4 lg:mx-10">
-            <h3 class="text-xl text-center lg:text-4xl font-semibold">Clients Question</h3>
-            <p class="mt-5 text-wrap lg:w-96 mx-auto"> Professional hockey clubs are organizations that field teams to compete in top-level hockey leagues. </p>
+            <h3 class="text-xl text-center lg:text-4xl font-semibold">Programme Section</h3>
+            <p class="mt-5 text-wrap lg:w-96 mx-auto"> There was many programmes are held. Many types of olympian are comes to see that.</p>
         </section>
          <section class="container mx-auto my-24 text-center m-4 lg:mx-10">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-12 lg:mx-0 mx-5">
@@ -113,7 +126,7 @@
                     <div class="hero-content text-start text-neutral-content">
                       <div class="m-6 lg:max-w-md lg:m-9">
                         <h1 class="mb-5 text-2xl font-bold">Junior Program</h1>
-                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <p class="mb-5">The Junior Program is designed for young participants typically in the age range of 6 to 12 yearsCoaches or instructors play a significant role in nurturing talent..</p>
                         <button class="btn btn-error text-white">Get Started</button>
                       </div>
                     </div>
@@ -122,8 +135,8 @@
                     <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
                     <div class="hero-content text-start text-neutral-content">
                         <div class="m-6 lg:max-w-md lg:m-9">
-                          <h1 class="mb-5 text-2xl font-bold">Junior Program</h1>
-                          <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                          <h1 class="mb-5 text-2xl font-bold">Teenager Program</h1>
+                          <p class="mb-5">The Teenager Program is designed for participants in the age range of 13 to 18 years.Mentorship programs may be introduced</p>
                           <button class="btn btn-error text-white">Get Started</button>
                         </div>
                       </div>
@@ -134,9 +147,9 @@
                     <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
                     <div class="text-start text-neutral-content">
                       <div class="m-6 lg:mr-96 mt-44 mb-7">
-                        <h1 class="mb-5 text-2xl font-bold ">Junior Program</h1>
-                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.
-                            <br> In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <h1 class="mb-5 text-2xl font-bold ">Professional Program</h1>
+                        <p class="mb-5">The Professional Program is tailored for individuals aiming to pursue a career performance in their chosen field.
+                            <br> Highly specialized training and coaching.</p>
                         <button class="btn btn-error text-white">Get Started</button>
                       </div>
                     </div>
@@ -145,7 +158,7 @@
         <!-- products -->
         <section class="container mx-auto my-24 text-center m-4 lg:mx-10">
             <h3 class="text-xl text-center lg:text-4xl font-semibold">Our New Products</h3>
-            <p class="mt-5 text-wrap lg:w-96 mx-auto"> Professional hockey clubs are organizations that field teams to compete in top-level hockey leagues. </p>
+            <p class="mt-5 text-wrap lg:w-96 mx-auto"> This cutting-edge product combines state-of-the-art technology with a commitment to performance, sustainability, and the spirit of the Olympic Games. </p>
         </section>
         <section class="container mx-auto my-24">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-12 lg:mx-0 mx-5">
@@ -160,7 +173,7 @@
                             </div>
                                </div>
                                 <h1 class="py-1 text-2xl font-bold">Box Office News!</h1>
-                                <p class="py-3 text-gray-600">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                <p class="py-3 text-gray-600">We are proud to present a product that aligns with Olympic values of sustainability. </p>
                                 <div class="flex flex-col lg:flex-row">
                                     <p class="lg:pr-5 text-red-600 font-bold">Price:20$</p>
                                     <div>
@@ -180,8 +193,8 @@
                                 <h6 class="text-gray-600 pr-4"><i class="fa-thin fa-eye"></i> 20</h6><h6 class="text-gray-600 pr-4"><i class="fa-thin fa-heart"></i> 200</h6>
                             </div>
                                </div>
-                                <h1 class="py-1 text-2xl font-bold">Box Office News!</h1>
-                                <p class="py-3 text-gray-600">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                <h1 class="py-1 text-2xl font-bold">World Cup Flags Football</h1>
+                                <p class="py-3 text-gray-600">In this version of football, players wear belts with detachable flags.</p>
                                 <div class="flex flex-col lg:flex-row">
                                     <p class="lg:pr-5 text-red-600 font-bold">Price:20$</p>
                                     <div>
@@ -201,8 +214,8 @@
                                 <h6 class="text-gray-600 pr-4"><i class="fa-thin fa-eye"></i> 20</h6><h6 class="text-gray-600 pr-4"><i class="fa-thin fa-heart"></i> 200</h6>
                             </div>
                                </div>
-                                <h1 class="py-1 text-2xl font-bold">Box Office News!</h1>
-                                <p class="py-3 text-gray-600">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                <h1 class="py-1 text-2xl font-bold">Cap For Hockeys</h1>
+                                <p class="py-3 text-gray-600">Our caps feature meticulously embroidered team logos, allowing you to proudly represent your favorite hockey team.</p>
                                 <div class="flex flex-col lg:flex-row">
                                     <p class="lg:pr-5 text-red-600 font-bold">Price:20$</p>
                                     <div>
@@ -222,8 +235,8 @@
                                 <h6 class="text-gray-600 pr-4"><i class="fa-thin fa-eye"></i> 20</h6><h6 class="text-gray-600 pr-4"><i class="fa-thin fa-heart"></i> 200</h6>
                             </div>
                                </div>
-                                <h1 class="py-1 text-2xl font-bold">Box Office News!</h1>
-                                <p class="py-3 text-gray-600">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                <h1 class="py-1 text-2xl font-bold">World Cup Flags Football</h1>
+                                <p class="py-3 text-gray-600">Teams from various countries compete for the prestigious World Cup title, showcasing their skills, strategy, and teamwork on an international stage.</p>
                                 <div class="flex flex-col lg:flex-row">
                                     <p class="lg:pr-5 text-red-600 font-bold">Price:20$</p>
                                     <div>
@@ -243,8 +256,8 @@
                                 <h6 class="text-gray-600 pr-4"><i class="fa-thin fa-eye"></i> 20</h6><h6 class="text-gray-600 pr-4"><i class="fa-thin fa-heart"></i> 200</h6>
                             </div>
                                </div>
-                                <h1 class="py-1 text-2xl font-bold">Box Office News!</h1>
-                                <p class="py-3 text-gray-600">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                <h1 class="py-1 text-2xl font-bold">World Cup Flags Football</h1>
+                                <p class="py-3 text-gray-600">The nature of flag football introduces an element of speed and agility to the game. </p>
                                 <div class="flex flex-col lg:flex-row">
                                     <p class="lg:pr-5 text-red-600 font-bold">Price:20$</p>
                                     <div>
@@ -264,8 +277,8 @@
                                 <h6 class="text-gray-600 pr-4"><i class="fa-thin fa-eye"></i> 20</h6><h6 class="text-gray-600 pr-4"><i class="fa-thin fa-heart"></i> 200</h6>
                             </div>
                                </div>
-                                <h1 class="py-1 text-2xl font-bold">Box Office News!</h1>
-                                <p class="py-3 text-gray-600">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                <h1 class="py-1 text-2xl font-bold">World Cup Flags Football</h1>
+                                <p class="py-3 text-gray-600">The World Cup Flags Football follows a tournament structure, starting with group stages and advancing to knockout rounds</p>
                                 <div class="flex flex-col lg:flex-row">
                                     <p class="lg:pr-5 text-red-600 font-bold">Price:20$</p>
                                     <div>
@@ -279,7 +292,7 @@
         <!-- faq head -->
         <section class="container mx-auto my-24 text-center m-4 lg:mx-10">
             <h3 class="text-xl text-center lg:text-4xl font-semibold">Clients Question</h3>
-            <p class="mt-5 text-wrap lg:w-96 mx-auto"> Professional hockey clubs are organizations that field teams to compete in top-level hockey leagues. </p>
+            <p class="mt-5 text-wrap lg:w-96 mx-auto"> The opinions of clients about the Olympic Games can vary widely as they are influenced by personal perspectives. </p>
         </section>
          <!-- faq -->
       <section class="my-24 text-center m-4 lg:mx-20">
@@ -291,37 +304,37 @@
           <div class="collapse collapse-arrow border rounded-xl border-slate-300 lg:m-4">
             <input type="radio" name="my-accordion-2" checked="checked" /> 
             <div class="collapse-title text-xl font-medium text-left">
-              Click to open this one and close others
+                Excitement and Enthusiasm is here?
             </div>
             <div class="collapse-content text-left"> 
-              <p>hello Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo recusandae excepturi harum impedit modi beatae qui voluptas, ipsa aspernatur quasi.</p>
+              <p>Many clients express excitement and enthusiasm for the Olympic Games, looking forward to the competition and the showcasing of world-class athletic talent.</p>
             </div>
           </div>
           <div class="collapse collapse-arrow border rounded-xl border-slate-300 lg:m-4">
             <input type="radio" name="my-accordion-2" checked="checked" /> 
             <div class="collapse-title text-xl font-medium text-left">
-              Click to open this one and close others
+              Is that Patriotism and National Pride?
             </div>
             <div class="collapse-content text-left"> 
-              <p>hello Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo recusandae excepturi harum impedit modi beatae qui voluptas, ipsa aspernatur quasi.</p>
+              <p>Some clients feel a strong sense of patriotism and national pride as they support athletes from their own country, celebrating their achievements on the global stage.</p>
             </div>
           </div>
           <div class="collapse collapse-arrow border rounded-xl border-slate-300 lg:m-4">
             <input type="radio" name="my-accordion-2" checked="checked" /> 
             <div class="collapse-title text-xl font-medium text-left">
-              Click to open this one and close others
+              Is that Inspiration and Motivational?
             </div>
             <div class="collapse-content text-left"> 
-              <p>hello Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo recusandae excepturi harum impedit modi beatae qui voluptas, ipsa aspernatur quasi.</p>
+              <p>The Olympic Games often inspire clients by showcasing stories of dedication, perseverance, and triumph. Viewers may find motivation in the athletes' journeys and achievements.</p>
             </div>
           </div>
           <div class="collapse collapse-arrow border rounded-xl border-slate-300 lg:m-4">
             <input type="radio" name="my-accordion-2" checked="checked" /> 
             <div class="collapse-title text-xl font-medium text-left">
-              Click to open this one and close others
+             Is that Cultural Appreciational?
             </div>
             <div class="collapse-content text-left"> 
-              <p>hello Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo recusandae excepturi harum impedit modi beatae qui voluptas, ipsa aspernatur quasi.</p>
+              <p>Clients appreciate the opportunity to experience and learn about different cultures during the Olympic Games, as the event brings together athletes from around the world.</p>
             </div>
           </div>
          </div>
@@ -330,7 +343,7 @@
           <!-- get in touch -->
           <section class="container mx-auto my-24 text-center m-4 lg:mx-10">
             <h3 class="text-xl text-center lg:text-4xl font-semibold">Get in touch</h3>
-            <p class="mt-5 text-wrap lg:w-96 mx-auto"> Professional hockey clubs are organizations that field teams to compete in top-level hockey leagues. </p>
+            <p class="mt-5 text-wrap lg:w-96 mx-auto"> It's essential to recognize that opinions about the Olympic Games are subjective, and individuals may have a combination of positive and critical views based on their perspectives and experiences. </p>
         </section>
         <!-- get -->
         <section class="my-24 m-4 lg:mx-20">
@@ -474,5 +487,6 @@
         </div>
     </footer>
 </footer>
+
 </body>
 </html>
